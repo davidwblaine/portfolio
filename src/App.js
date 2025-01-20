@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import headshot from './headshot.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className='name-main'>David Blaine</h1>
+        <div classname= 'headshot'>
+        <img src= {headshot} className='img'/>
+        </div>
+        <p className='description-main'>I am a graduate of Towson University and a junior software delvoper 
+          deeply engaged with working with people. Away from my desk I enjoy playing chess, 
+          spending time with loved ones, traveling, and staying active through biking and rock climbing </p>
       </header>
     </div>
   );
